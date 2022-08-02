@@ -8,6 +8,9 @@ Description: This package contains the dataset of players and results of the 44t
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.0.0
+RoxygenNote: 7.2.1
 URL: https://github.com/focardozom/ChessOlympiad22
 BugReports: https://github.com/focardozom/ChessOlympiad22/issues
+Depends: 
+    R (>= 2.10)
+LazyData: true
