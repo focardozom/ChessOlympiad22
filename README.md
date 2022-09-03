@@ -21,4 +21,4 @@ The tournament's information can be found in the following link:
 
 https://chess-results.com/tnr653631.aspx?lan=1&flag=30&turdet=YES
 
-![](inst/ChessOlympiad22.gif){width=30%}
+![](inst/ChessOlympiad22.gif)
