@@ -8,16 +8,21 @@
 #'
 #' @format A tibble with 11 rows and 11 variables:
 #' \describe{
-#' \item{No_player}{label here}
-#' \item{title}{label here}
-#' \item{name}{label here}
-#' \item{fide_id}{label here}
-#' \item{rtg}{label here}
-#' \item{fed}{label here}
-#' \item{team}{label here}
-#' \item{Board}{label here}
-#' \item{performance_rating}{label here}
-#' \item{k}{label here}
-#' \item{change_rating}{label here}
+#' \item{No_player}{The number of players in the tournament.
+#' The player 1 is the strongest in the tournament}
+#' \item{title}{The FIDE title of the player. For example, GM=Gran Maestro}
+#' \item{name}{The name of the player}
+#' \item{fide_id}{the FIDE ID of the player}
+#' \item{rtg}{the ELO of the player (called rating)}
+#' \item{fed}{The federation of the player}
+#' \item{team}{The name of the player team}
+#' \item{Board}{The position the player plays in the team. For example,
+#' board 1 indicates that the player is the strongest in the team.}
+#' \item{performance_rating}{This is a value calculated at the
+#' end of the tournament indicating the performance}
+#' \item{k}{k is the number of valid matches
+#' played by the player during the entire tournament.}
+#' \item{change_rating}{The variation in the ELO (rating)
+#' of the player at the end of the tournament}
 #'}
 "players"

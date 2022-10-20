@@ -2,23 +2,36 @@
 #' @title results
 #'
 #' @description describe your data set here
-#'   
+#'
 #' @docType data
 #'
 #' @usage data(results)
 #'
-#' @format A tibble with 12 rows and 12 variables:
-#' \describe{\item{round_number}{label here}
-#' \item{round}{label here}
-#' \item{board}{label here}
-#' \item{title_white}{label here}
-#' \item{name_white}{label here}
-#' \item{elo_white}{label here}
-#' \item{title_black}{label here}
-#' \item{name_black}{label here}
-#' \item{elo_black}{label here}
-#' \item{result_white}{label here}
-#' \item{result_black}{label here}
-#' \item{elo_difference}{label here}
+#' @format A tibble with 4027 rows and 12 variables:
+#' \describe{
+#' \item{round_number}{Indicates the round number (numeric)}
+#' \item{round}{Indicates the round (character)}
+#' \item{board}{The first number indicates the position of the table.
+#' Table 1 is where the leading team plays its matches.
+#' The second number is the player's position in the team, for example.
+#' 1.3 indicates that the match happened in table 1,
+#' and the player was the number three. }
+#' \item{title_white}{Indicates the FIDE title of the player with white pieces.
+#' For example, GM= Grand Master, IM= International Master.}
+#' \item{name_white}{The name of the player with white pieces}
+#' \item{elo_white}{The ELO (a measure of the strength of the player)
+#' of the player with white pieces}
+#' \item{title_black}{Indicates the FIDE title of the player with black pieces.
+#' For example, GM= Grand Master, IM= International Master.}
+#' \item{name_black}{The name of the player with black pieces}
+#' \item{elo_black}{The ELO (a measure of the strength of the player)
+#' of the player with black pieces}
+#' \item{result_white}{The final result of the match from the perspective
+#' of the player with the white pieces (won, lost, or draw)}
+#' \item{result_black}{The final result of the match from the perspective
+#' of the player with the black pieces (won, lost, or draw)}
+#' \item{elo_difference}{The result of subtracting
+#' the ELO of the two players. ELO player 1 - ELO player 2.
+#' A positive difference indicates that player 1 was stronger}
 #'}
 'results'
