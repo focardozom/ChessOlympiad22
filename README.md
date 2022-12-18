@@ -6,4 +6,4 @@ Soon, you will find vignettes using the data. The planned vignettes include a CA
 
 The ChessOlympiad package contains the following databases: Players, Teams, and Results. You can find more information about the tournament [here.](https://chess-results.com/tnr653631.aspx?lan=1&flag=30&turdet=YES)
 
-![ChessOlympiad22](inst/ChessOlympiad22.gif){width=50%}
+![ChessOlympiad22](inst/ChessOlympiad22.jpg){width=50%}
