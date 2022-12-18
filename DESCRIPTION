@@ -14,3 +14,9 @@ BugReports: https://github.com/focardozom/ChessOlympiad22/issues
 Depends: 
     R (>= 2.10)
 LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    tidymodels,
+    rpart.plot
+VignetteBuilder: knitr
