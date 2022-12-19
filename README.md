@@ -1,4 +1,4 @@
-# ChessOlympiad22 <a href='https://github.com/focardozom/ChessOlympiad22'><img src='inst/ChessOlympiad22.jpg' align="right" width="139" /></a>
+# ChessOlympiad22 <a href='https://github.com/focardozom/ChessOlympiad22'><img src='inst/chessOlympiad.png' align="right" width="139" /></a>
 
 This package contains three datasets to analyze the performance of 937 players from 188 countries during the Chess Olympiad in Chennai, India in 2022. The data has a multilevel structure, with players nested within countries and players nested within time. This makes it a helpful resource for practicing analysis of nested data in R.
 
