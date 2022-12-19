@@ -129,7 +129,7 @@ cart_spec <-
 
 ```
 
-### Create a recepie 
+### Create a recipie 
 
 I will add two steps in the recipe. One to filter the data set by round, and the other to convert results in a factor variable.  I also will limit my analysis to players with more than 1600 in ELO. 
 
