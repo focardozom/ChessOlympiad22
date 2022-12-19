@@ -16,6 +16,6 @@
 #' \item{country}{A character with the name of the country}
 #' \item{rtg_avg}{The rating average.
 #' This number is the average ELO of the team}
-#' \item{captain}{THe name of the captain of the team}
+#' \item{captain}{The name of the captain of the team}
 #'}
 'teams'

@@ -2,8 +2,12 @@ Package: ChessOlympiad22
 Title: Chess Olympiad Dataset 2022
 Version: 0.0.0.9000
 Authors@R: 
-    person("Francisco", "Cardozo", , "foc9@miami.edu", role = c("aut", "cre"),
-           comment = c(ORCID = "https://orcid.org/0000-0002-1925-4954"))
+    person(
+    given = "Francisco",
+    family = "Cardozo", 
+    email = "foc9@miami.edu", 
+    role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0002-1925-4954"))
 Description: This package contains the dataset of players and results of the 44th Chess olympiads 2022.
 License: MIT + file LICENSE
 Encoding: UTF-8

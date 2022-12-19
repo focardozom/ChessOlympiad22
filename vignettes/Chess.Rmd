@@ -1,8 +1,8 @@
 ---
-title: "Chess Olympiad 2022"
+title: "Chess"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Chess Olympiad 2022}
+  %\VignetteIndexEntry{Chess}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -19,6 +19,7 @@ library(ChessOlympiad22)
 ```
 
 
+
 # Does ELO predict the wining move?
 
 The ELO rating system is a method for calculating the relative skill levels of chess players. The rating is based on the results of games played, and is used to compare the strength of one player to another. The higher a player's ELO rating, the more skilled they are considered to be.
@@ -27,10 +28,8 @@ In this document, the ELO difference between two players is used to evaluate the
 
 ### Libraries
 
-```{r libraries}
-#| message: false
+```{r libraries, message=FALSE}
 
-library(ChessOlympiad22)
 library(rpart.plot)
 library(tidymodels)
 ```
